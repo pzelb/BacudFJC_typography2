@@ -1,0 +1,80 @@
+
+p {font-family: "Arial Narrow", Arial, sans-serif;font-weight: 600;}
+h1,h2,h3,h4,h5,h6 {font-family: "Cooper Black", serif; font-weight: 600;}
+
+body, html {
+width: 1920px;
+position: absolute;
+background-color: #D5CD3A;
+align-items: center;
+vertical-align: middle;
+padding: 0;
+}
+
+img{
+  width:364px;
+  height: auto;
+}
+
+.grid-container {
+	display:grid;
+	grid-template-columns: repeat(27,70px);
+	grid-template-rows: repeat(16,70px);
+  position: absolute;
+  width: 1920px;
+}
+
+.contentleft{
+  grid-area: 3 / 2 / 8 / 7;
+  line-height: 1.8;
+  font-family : Arial Narrow;
+  font-weight : bold;
+  font-size : 25px;
+  line-height : 33px;
+  color : #172607;
+  color : rgb(23, 38, 7);
+}
+.earthphoto{
+  grid-area: 8 / 2 / 13 / 7;
+}
+
+.middle{
+  grid-area: 3 / 10 / 12 / 18;
+	text-align: center;
+	line-height: 20px;
+  font-family : Cooper Black;
+  color : #385902;
+}
+
+.headline{
+  grid-area: 13 / 8 / 15 / 20;
+  font-family : Arial Narrow;
+  font-weight : bold;
+  font-style : italic;
+  font-size : 43px;
+  line-height : 78px;
+  text-align: center;
+  color : #3F3E08;
+}
+
+.rightbold{
+  grid-area: 3 / 21 / 6 / 26;
+  font-family : Cooper Black;
+  font-size : 53px;
+  line-height : 62px;
+  letter-spacing : 0.53px;
+  color : #6F820C;
+  color : rgb(111, 130, 12);
+}
+
+.contentright{
+  grid-area: 7 / 21 / 13 / 26;
+  text-align: right;
+  vertical-align: bottom;
+  font-family : Arial Narrow;
+  font-weight : bold;
+  font-size : 25px;
+  line-height : 33px;
+  color : #385902;
+  color : rgb(56, 89, 2);
+}
