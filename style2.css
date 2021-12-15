@@ -18,8 +18,8 @@ img{
 
 .grid-container {
 	display:grid;
-	grid-template-columns: repeat(27,70px);
-	grid-template-rows: repeat(16,70px);
+	grid-template-columns: repeat(27,60px);
+	grid-template-rows: repeat(16,60px);
   position: absolute;
   width: 1920px;
 }
