@@ -5,11 +5,118 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://fonts.adobe.com/fonts/cooper-black" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="style2.css">
-
 
 	<title>BacudFJC_typography2</title>
 
+<style type="text/css">
+		p {font-family: "Arial Narrow", Arial, sans-serif;font-weight: 600;color:#385902;}
+		h1,h2,h3,h4,h5,h6 {font-family: "Cooper Black", serif; font-weight: 600;}
+
+html{
+		height:705;
+		width: 100%;
+		position:absolute;
+}
+body{
+	width: 100%;
+	background-color: #D5CD3A;
+	position:relative;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+	align-items: center;
+	justify-content: center;
+}
+.grid-container {
+	display:grid;
+	align-items: center;
+	justify-content: center;
+	grid-template-columns: repeat(26,55px);
+  grid-template-rows: repeat(15,55px);
+}
+
+.contentleft{
+  grid-area: 3 / 2 / 8 / 7;
+  line-height: 1.8;
+	vertical-align: top;
+  font-family : Arial Narrow;
+  font-weight : bold;
+	font-size : 19px;
+	line-height : 25px;
+	vertical-align: top;
+}
+.earthphoto{
+  grid-area: 8 / 2 / 13 / 7;
+	vertical-align: bottom;
+}
+
+.middle{
+  grid-area: 3 / 10 / 12 / 18;
+	text-align: center;
+	line-height: 35px;
+  font-family : Cooper Black;
+  color : #385902;
+	word-wrap: break-word;
+	vertical-align: top;
+}
+
+.headline{
+  grid-area: 13 / 8 / 15 / 20;
+  font-family : Arial Narrow;
+  font-weight : bold;
+  font-style : italic;
+  font-size : 30px;
+  line-height : 50px;
+  text-align: center;
+	vertical-align: top;
+}
+
+.rightbold{
+  grid-area: 3 / 21 / 7 / 26;
+  font-family : Cooper Black;
+  font-size : 35px;
+  line-height : 48px;
+	word-wrap: break-word;
+  letter-spacing : 0.53px;
+  color : #6F820C;
+}
+
+.contentright{
+  grid-area: 7 / 21 / 13 / 26;
+	line-height: 1.8;
+	vertical-align: bottom;
+	text-align: right;
+  font-family : Arial Narrow;
+  font-weight : bold;
+	font-size : 19px;
+	line-height : 25px;
+}
+.border{
+	width: 100%;
+	height: 20px;
+	background-color:#385902;
+	position: absolute;
+	color:#D5CD3A;
+	font-size: 13px;
+	font-family : Arial Narrow;
+  font-weight : bold;
+	column-count: 3;
+	align-items: center;
+}
+//*
+.author{
+	float: left;
+	width:33%;
+}
+.subject{
+	text-align: center;
+	float: inherit;
+	width:33%
+}
+.group{
+	float: right;
+	width:33%
+}*//
+</style>
 </head>
 
 <body>
